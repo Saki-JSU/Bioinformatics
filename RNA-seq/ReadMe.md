@@ -24,9 +24,11 @@ Then we get a **.gz** file and unzip it.
 
 ### Load the data set into R
 Download and library R packages: install [Bioconductor](https://bioconductor.org/install/) 
-> if (!requireNamespace("BiocManager", quietly = TRUE))
->   install.packages("BiocManager")
+
+> if (!requireNamespace("BiocManager", quietly = TRUE)) \
+>   install.packages("BiocManager") \
 > BiocManager::install()
+
 install DESeq2:
 
 and related packages, e.g., DESeq2; install ggplot2
