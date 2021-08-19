@@ -51,6 +51,14 @@ rownames(count)<-count[,1]
 count<-count[,-1]
 ```
 
-
+### DESeq2 package to find differential genes
+```
+# generate DESeqDateSet
+colData<-data.frame(row.names=colnames(count), group=group1)   # group is a factor to denote class
+dds<-DESeqDataSetFromMatrix(countData = count, colData = colData, design = ~ group) 
+# differential genes
+dds<-DESeq(dds)
+res<-results(dds)
+```
 
 
