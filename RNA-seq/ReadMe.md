@@ -59,6 +59,22 @@ dds<-DESeqDataSetFromMatrix(countData = count, colData = colData, design = ~ gro
 # differential genes
 dds<-DESeq(dds)
 res<-results(dds)
+log2 fold change (MLE): group Illness vs HD 
+Wald test p-value: group Illness vs HD 
+DataFrame with 57736 rows and 6 columns
+                  baseMean log2FoldChange     lfcSE      stat      pvalue        padj
+                 <numeric>      <numeric> <numeric> <numeric>   <numeric>   <numeric>
+ENSG00000000003   1.400225     -0.4243735  0.657579 -0.645357 5.18696e-01 6.08646e-01
+ENSG00000000005   0.028255     -0.7023087  3.658600 -0.191961 8.47773e-01          NA
+ENSG00000000419  26.256171     -1.4916957  0.282396 -5.282289 1.27580e-07 8.99316e-07
+ENSG00000000457   6.406333     -1.8277168  0.433083 -4.220245 2.44037e-05 9.84990e-05
+ENSG00000000460  19.918258     -0.0491833  0.228634 -0.215118 8.29675e-01 8.72313e-01
+...                    ...            ...       ...       ...         ...         ...
+ENSG00000273487 0.00000000             NA        NA        NA          NA          NA
+ENSG00000273488 0.00000000             NA        NA        NA          NA          NA
+ENSG00000273489 0.00167012      -0.765861   3.65860 -0.209332    0.834189          NA
+ENSG00000273492 0.03958312      -0.587689   2.30357 -0.255121    0.798629          NA
+ENSG00000273493 0.02874980      -1.102924   3.65822 -0.301492    0.763039          NA
 ```
 
 
