@@ -1,6 +1,6 @@
 # RNA-seq Analysis
 
-- 1. Upstream Analysis
+-1. Upstream Analysis
    - 1. Step  0 
       - Software: Linux
       - Input: .fastq format
