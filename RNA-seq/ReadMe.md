@@ -1,7 +1,7 @@
 # RNA-seq Analysis
 
-1. Upstream Analysis
-   1. Step  0 
+- 1. Upstream Analysis
+   - 1. Step  0 
       - Software: Linux
       - Input: .fastq format
       - Output:
@@ -11,7 +11,4 @@
 - Input:
 - Output:
 
-1. foooooo
-1. barrrrrrrr
-    1. ffoooooo
-    1. bbarrrrrrr
+
