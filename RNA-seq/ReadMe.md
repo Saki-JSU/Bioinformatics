@@ -18,5 +18,5 @@ CCTCCATCAGGTATTGCTCCAGGGACACTGGGTGCTTGATGTAGACATTGGTCTGTATGTCCTTGGCAGGCAGCCGCTCC
 
 ## Downstream Analysis (Implemented by R)
 ### Count Matrix
-Download from GSE website. For example, we download Series Matrix Files in [GSE68086]{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086}
+Download from GSE website. For example, we download Series Matrix Files in [GSE68086](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086)
 
