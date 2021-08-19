@@ -2,13 +2,13 @@
 
 ## Upstream Analysis
 
-### Step  0 
+### Step 0 
 - Software: Linux
-- Input: .fastq format
+- Input: **.fastq format**
 - Output:
 
-2. Downstream Analysis
-
+## Downstream Analysis
+### Step 0
 - Input:
 - Output:
 
