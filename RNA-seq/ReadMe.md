@@ -1,6 +1,6 @@
 # RNA-seq Analysis
 
-## Upstream Analysis (Implemented By Linux)
+## Upstream Analysis (Implemented by Linux)
 
 ### .fastq format
 The original sequencing file is obtained by experiments. An example:
@@ -16,8 +16,8 @@ CCTCCATCAGGTATTGCTCCAGGGACACTGGGTGCTTGATGTAGACATTGGTCTGTATGTCCTTGGCAGGCAGCCGCTCC
 > Third line: +, no information \
 > Forth line: quality of read sequence denoted by ASCII 
 
-## Downstream Analysis
-### Step 0
+## Downstream Analysis (Implemented by R)
+### Count Matrix
 - Input:
 - Output:
 
