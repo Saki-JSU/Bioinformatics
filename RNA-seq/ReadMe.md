@@ -43,6 +43,12 @@ install ggplot2:
 install.packages("ggplot2")
 ```
 
+Load data into R:
+```
+# read data
+count<-read.table("GSE68086_TEP_data_matrix.txt", header = T,sep = "\t", comment.char = "!")
+```
+
 
 
 
