@@ -17,10 +17,13 @@ CCTCCATCAGGTATTGCTCCAGGGACACTGGGTGCTTGATGTAGACATTGGTCTGTATGTCCTTGGCAGGCAGCCGCTCC
 > Forth line: quality of read sequence denoted by ASCII 
 
 ## Downstream Analysis (Implemented by R)
-### Count Matrix
+### Download Count Matrix
 Download from GSE website. For example, we download Series Matrix Files in [GSE68086](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086). 
 
-Then we get a .gz file and unzip it. 
+Then we get a **.gz** file and unzip it. 
+
+### Load the data set into R
+Download and library R packages: intall [Bioconductor](https://bioconductor.org/install/) and related packages, e.g., DESeq2; install ggplot2
 
 
 
