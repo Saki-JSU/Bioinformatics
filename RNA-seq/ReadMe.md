@@ -47,6 +47,8 @@ Load data into R:
 ```
 # read data
 count<-read.table("GSE68086_TEP_data_matrix.txt", header = T,sep = "\t", comment.char = "!")
+rownames(count)<-count[,1]
+count<-count[,-1]
 ```
 
 
