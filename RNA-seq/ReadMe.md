@@ -11,6 +11,13 @@ CCTCCATCAGGTATTGCTCCAGGGACACTGGGTGCTTGATGTAGACATTGGTCTGTATGTCCTTGGCAGGCAGCCGCTCC
 ,::FFF:::FFFFFFF:F:F:FFFF:F:FFFFFF:FFFFFFFFFFFFFFFFF:FFFFFFFF,FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF,F:FFFFF::FFFFF:FFFFFFFFFFFF,,FFFFFFFFFFFFFF:FFFFFFFFFFF
 ```
 
+> First line：Start with @. It is a unique id of this read sequence. 
+> Seconde line: read sequence, with A, C, G, T, N five types. N means the bases that not be identified. 
+> Third line: +, no information
+> Forth line: quality of read sequence denoted by ASCII 
+
+
+
 
 ## Downstream Analysis
 ### Step 0
