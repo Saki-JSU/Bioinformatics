@@ -32,6 +32,9 @@ BiocManager::install()
 ```
 
 install DESeq2:
+```
+BiocManager::install("DESeq2")
+```
 
 and related packages, e.g., DESeq2; install ggplot2
 
