@@ -77,4 +77,39 @@ ENSG00000273492 0.03958312      -0.587689   2.30357 -0.255121    0.798629       
 ENSG00000273493 0.02874980      -1.102924   3.65822 -0.301492    0.763039          NA
 ```
 
+### Volcano Plot
+```
+# library
+library(ggplot2)
+library(ggrepel)
+library(org.Hs.eg.db)
+library(clusterProfiler)
+# filter NA gene
+dgs<-res[!is.na(res[,6]), ]
+# filter gene by |log2fold|>2 & adjusted p-value<0.05
+up<-which(dgs[,2]>1.5 & dgs[,6]<0.05)
+down<-which(dgs[,2]<(-1.5) & dgs[,6]<0.05)
+change<-rep("NOT", nrow(dgs))
+change[up]<-"UP"
+change[down]<-"DOWN"
+# transform into gene symbol
+idx<-bitr(rownames(dgs), fromType = "ENSEMBL", toType = c( "SYMBOL"), OrgDb = org.Hs.eg.db)
+symbol<-rownames(dgs)
+names(symbol)<-rownames(dgs)
+symbol[idx[,1]]<-idx[,2]
+symbol[abs(dgs[,2])<2.5 & dgs[,6]>0.001]<-NA
+# plot
+data<-data.frame(log2FoldChange = dgs$log2FoldChange, padj= dgs$padj, change = change, symbol = symbol, row.names = rownames(dgs))
+ggplot(data = data, aes(x = log2FoldChange, y = -log10(padj), color = change)) +
+  geom_point(alpha=0.8, size = 1) +
+  theme_bw(base_size = 15) +
+  theme(
+    panel.grid.minor = element_blank(),
+    panel.grid.major = element_blank()
+  ) + 
+  geom_hline(yintercept=2 ,linetype=4) + 
+  geom_vline(xintercept=c(-1,1) ,linetype=4 ) +
+  scale_color_manual(name = "", values = c("red", "green", "black"), limits = c("UP", "DOWN", "NOT")) + 
+  geom_label_repel(aes(label=symbol), fontface="bold", color="grey50", box.padding=unit(0.35, "lines"), point.padding=unit(0.5, "lines"), segment.colour = "grey50")
+```
 
