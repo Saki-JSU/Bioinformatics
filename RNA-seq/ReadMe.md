@@ -113,3 +113,5 @@ ggplot(data = data, aes(x = log2FoldChange, y = -log10(padj), color = change)) +
   geom_label_repel(aes(label=symbol), fontface="bold", color="grey50", box.padding=unit(0.35, "lines"), point.padding=unit(0.5, "lines"), segment.colour = "grey50")
 ```
 
+![图2](https://github.com/Saki-JSU/MarkdownImage/blob/main/Volcano.png?raw=true)
+
