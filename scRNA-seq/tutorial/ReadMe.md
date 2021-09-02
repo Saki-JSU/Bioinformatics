@@ -28,7 +28,7 @@ This step introduces three normalization methods: CPM, SCRAN and Downsampled. PC
 
 RLE plots are used to illustrate the performance of normalization. The centers are shaped in a lined clearly. 
 
-The code use a package called **scRNA.seq.funcs**, which is written by authors and needs to be installed from GitHub.
+The code use a package called ```scRNA.seq.funcs''', which is written by authors and needs to be installed from GitHub.
 
 See **Step4.R** for details.
 
