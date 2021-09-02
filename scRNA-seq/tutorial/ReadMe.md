@@ -26,7 +26,7 @@ See **Step3.R** for details.
 ## Step 4: Normalization
 This step introduces three normalization methods: CPM, SCRAN and Downsampled. PCA on normalized data perform better. 
 
-RLE plots are used to illustrate the performance of normalization. The centers are shaped in a lined clearly. 
+RLE plots are used to illustrate the performance of normalization. The centers are shaped in a lined clearly. We believe SCRAN is a better choice.
 
 The code use a package called `scRNA.seq.funcs`, which is written by authors and needs to be installed from GitHub.
 
