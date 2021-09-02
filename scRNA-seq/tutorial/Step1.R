@@ -1,4 +1,4 @@
-# Macrophagocyte
+# Step 1: Read data and visualization
 # initial environment
 rm(list=ls())
 gc()
