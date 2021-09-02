@@ -23,6 +23,14 @@ Based on the PCA results, we can identify confounding factors and explanatory va
 
 See **Step3.R** for details.
 
+## Step 4: Normalization
+This step introduces three normalization methods: CPM, SCRAN and Downsampled. PCA on normalized data perform better. 
 
+RLE plots are used to illustrate the performance of normalization. The centers are shaped in a lined clearly. 
 
+The code use a package called **scRNA.seq.funcs**, which is written by authors and needs to be installed from GitHub.
+
+See **Step4.R** for details.
+
+ 
 
