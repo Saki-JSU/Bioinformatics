@@ -6,3 +6,10 @@ This is a reproduction for [Analysis of single cell RNA-seq data](https://www.si
 In this step, we create a SingleCellExperiment object and calculate some basic statistics. See **Step1.R** for details.
 
 ## QC
+In this step, we implement QC from following perspectives:
+
+1. Map ENSEMBL IDs to gene symbols to identify mitochondrial proteins. EnsDb.Hsapiens.v86 package is recommended as reference database. 
+2. Calculate the number of detected genes and MT gene percentage. Low number of detected genes, but high MT gene percentage, are hallmarks of a low quality cell
+3. Filter genes only detected in one or zero cell. 
+
+See **Step2.R** for details.
