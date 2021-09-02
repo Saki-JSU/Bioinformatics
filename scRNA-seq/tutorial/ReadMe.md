@@ -32,5 +32,11 @@ The code use a package called `scRNA.seq.funcs`, which is written by authors and
 
 See **Step4.R** for details.
 
- 
+## Step 5: Effect of batch-effect correction
+This step introduce three methods to evaluate the performance of batch effect correction: PCA plot, RLE plot and kBET. 
+
+See **Step5.R** for details.
+
+
+
 
