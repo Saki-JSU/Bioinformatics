@@ -24,7 +24,7 @@ Based on the PCA results, we can identify confounding factors and explanatory va
 See **Step3.R** for details.
 
 ## Step 4: Normalization
-This step introduces three normalization methods: CPM, SCRAN and Downsampled. Normalization is a way to remove batch effects. 
+This step introduces three normalization methods: CPM, SCRAN and Downsampled. Normalization is a way to relieve batch effects. 
 
 PCA & RLE plots are used to illustrate the performance of normalization. The centers are shaped in a lined clearly. We believe SCRAN is a better choice.
 
