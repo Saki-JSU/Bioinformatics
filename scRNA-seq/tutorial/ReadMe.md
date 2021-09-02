@@ -15,7 +15,13 @@ In this step, we implement QC from following perspectives:
 See **Step2.R** for details.
 
 ## Step 3: Dimension Reduction
-In this step, we use two methods to implement dimension reduction: PCA and TSNE. The TSNE method is involved in randomness. The images generated are a little different from that in tutorial author. See **Step3.R** for details.
+In this step, we use two methods to implement dimension reduction: PCA and TSNE. 
+
+The TSNE method is involved in randomness. The images generated are a little different from that in tutorial author. 
+
+Based on the PCA results, we can identify confounding factors and explanatory variables. The number of detected genes and the sequencing depth (number of counts) have substantial explanatory power for many genes.
+
+See **Step3.R** for details.
 
 
 
