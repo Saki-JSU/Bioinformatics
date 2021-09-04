@@ -11,3 +11,8 @@ After identifying differential genes, we can calculate True positive rate (TPR),
 
 See **Step2.R** for details.
 
+## Step 3: A system analysis using Seurat
+Seurate package provides a workflow to analyze single cell RNA-seq data, including QC, dimension reduction, clustering, identify gene marker and so on. 
+
+See **Step3.R** for details.
+
