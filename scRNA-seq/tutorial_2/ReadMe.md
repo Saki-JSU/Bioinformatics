@@ -3,3 +3,11 @@ This is a reproduction for [Analysis of single cell RNA-seq data](https://www.si
 
 ## Step 1: clustering
 This step introduces three methods to cluster cells: SC3, tSNE+kmeans and SINCERA. See **Step1.R** for details. 
+
+## Step 2: DE analysis
+This step provides several methods to implement Differential Expression analysis: K-S test, Wilcox test, edgeR, and so on. 
+
+After identifying differential genes, we can calculate True positive rate (TPR), TP/(TP + FN), and False positive rate (FPR), FP/(FP+TP), then plot ROC and compute AUC value. 
+
+See **Step2.R** for details.
+
