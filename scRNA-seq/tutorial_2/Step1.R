@@ -1,4 +1,4 @@
-# Step 1:
+# Step 1: clustering
 # initial environment
 rm(list=ls())
 gc()
