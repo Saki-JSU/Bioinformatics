@@ -8,5 +8,5 @@ sartoolkit is used to download SRR data.
 - Test install: `~/sratoolkit.2.11.1-centos_linux64/bin/fastq-dump -h`
 
 - Set environmental variable: `echo 'export PATH=~/sratoolkit.2.11.1-centos_linux64/bin:$PATH'  >> ~/.bashrc`
-- 
+
 `source ~/.bashrc`
