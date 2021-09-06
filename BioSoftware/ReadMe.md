@@ -12,3 +12,5 @@ sartoolkit is used to download SRR data.
 echo 'export PATH=~/sratoolkit.2.11.1-centos_linux64/bin:$PATH'  >> ~/.bashrc
 source ~/.bashrc
 ```
+
+- Test install again: `fastq-dump` and `prefetch`
