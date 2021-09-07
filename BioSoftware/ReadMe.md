@@ -33,6 +33,6 @@ Download SRR file in batch: `prefetch --option-file SRR_Acc_List.txt -O ./`
 for i in *sra
   do
   echo $i
-  fasq-dump --split-3 $i
+  fasterq-dump --split-3 $i
   done
 ```
