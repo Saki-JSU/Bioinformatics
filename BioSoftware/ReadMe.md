@@ -25,3 +25,14 @@ Find SRR list file:
 Download single SRR: `prefetch SRR8956151 -O ./`
 
 Download SRR file in batch: `prefetch --option-file SRR_Acc_List.txt -O ./`
+
+## 3. Transfer sra data into fastq files
+- save all .sra data in one folder
+- transfer in batch
+```
+for i in *sra
+  do
+  echo $i
+  fasq-dump --split-3 $i
+  done
+```
