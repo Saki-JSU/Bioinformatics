@@ -21,3 +21,6 @@ Find SRR list file:
 ![图1](https://github.com/Saki-JSU/MarkdownImage/blob/main/20210907_1.png?raw=true)
 ![图2](https://github.com/Saki-JSU/MarkdownImage/blob/main/20210907_2.png?raw=true)
 ![图3](https://github.com/Saki-JSU/MarkdownImage/blob/main/20210907_3.png?raw=true)
+
+Download single SRR: `prefetch SRR8956151 -O ./`
+Download SRR file in batch: `prefetch --option-file SRR_Acc_List.txt -O ./`
