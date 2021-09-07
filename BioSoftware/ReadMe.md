@@ -18,4 +18,6 @@ source ~/.bashrc
 ## 2. Download SRR data
 Find SRR list file:
 
-
+![图1](https://github.com/Saki-JSU/MarkdownImage/blob/main/20210907_1.png?raw=true)
+![图2](https://github.com/Saki-JSU/MarkdownImage/blob/main/20210907_2.png?raw=true)
+![图3](https://github.com/Saki-JSU/MarkdownImage/blob/main/20210907_3.png?raw=true)
