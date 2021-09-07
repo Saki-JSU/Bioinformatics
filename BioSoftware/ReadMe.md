@@ -14,3 +14,8 @@ source ~/.bashrc
 ```
 
 - Test install again: `fastq-dump` and `prefetch`
+
+## 2. Download SRR data
+Find SRR list file:
+
+
