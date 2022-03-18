@@ -2,6 +2,7 @@
 
 1. 从[官网](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software)下载压缩包，并上传到服务器
 2. 解压压缩包 
+
    `tar zvxf ~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64.tar.gz -C ~/bioinformatics/software`
 4. 运行配置环境 `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`
    - 新建空文件夹 sratoolkit 用于保存用户信息
