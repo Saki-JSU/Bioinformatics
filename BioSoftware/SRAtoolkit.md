@@ -9,8 +9,8 @@
    - 按S保存设置，按X退出
 4. 执行 `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`   检查安装结果
 5. 设置环境变量 
-   `echo 'export PATH=~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin:$PATH'  >> ~/.bashrc
-   soruce ~/.bashrc`
+   `echo 'export PATH=~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin:$PATH'  >> ~/.bashrc`
+   `soruce ~/.bashrc`
 6. 检查环境变量设置是否成功 `fastq-dump`
 
 
