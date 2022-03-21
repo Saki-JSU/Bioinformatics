@@ -23,10 +23,12 @@
     ```
 6. Check environmental variables setting: `fastq-dump`
 
-# 批量下载SRA文件
+# Download SRA data in batch
 
-1. 根据GEO号查找相关数据集，例如 [GSE153481](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153481 )
-2. 点击 "SRA Run Selector"
-3. 点击 "Accession List" 下载文件列表
-4. 将下载的文件通过WinSCP上传到服务器相应位置
-5. 批量下载 `prefetch --option-file SRR_Acc_List.txt`
+1. Search dataset by GEO number, such as [GSE153481](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153481).
+
+2. Click "SRA Run Selector".
+
+3. Click  "Accession List" to download file list. Upload the file list to the server. 
+
+4. Download in batch: `prefetch --option-file SRR_Acc_List.txt`
