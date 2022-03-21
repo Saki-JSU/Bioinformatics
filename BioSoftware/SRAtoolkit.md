@@ -3,7 +3,8 @@
 1. [Download](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software) corresponding version. Upload the install package to the server. 
 
 2. Unzip: `tar zvxf ~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64.tar.gz -C ~/bioinformatics/software`
-4. 运行配置环境: `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`
+
+3. Configuration: `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`
    - 新建空文件夹 sratoolkit 用于保存用户信息
    - 进入终端后，按C选择CACHE，location of user-repository 选择新建的空文件夹sratoolkit，process-local location选择安装包解压成的文件夹sratoolkit.3.0.0-ubuntu64
    - 按A选择AWS，选择report cloud instance identity
