@@ -8,7 +8,7 @@
  
    - Create a new folder called "sratoolkit" to save user information 
 
-   - After entering the terminal，type "C" to choose CACHE. The location of user-repository choose the location of new folder "sratoolkit". The process-local location choose the location of sratoolkit.3.0.0-ubuntu64 folder. 
+   - After entering the terminal，type "C" to choose CACHE. The location of user-repository is the location of new folder "sratoolkit". The process-local location is the location of sratoolkit.3.0.0-ubuntu64 folder. 
   
    - Type "A" to choose AWS. Choose "report cloud instance identity".
    
