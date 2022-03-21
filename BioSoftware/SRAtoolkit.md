@@ -21,7 +21,7 @@
     echo 'export PATH=~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin:$PATH'  >> ~/.bashrc 
     soruce ~/.bashrc
     ```
-6. 检查环境变量设置是否成功: `fastq-dump`
+6. Check environmental variables setting: `fastq-dump`
 
 # 批量下载SRA文件
 
