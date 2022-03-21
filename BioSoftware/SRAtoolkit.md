@@ -5,10 +5,15 @@
 2. Unzip: `tar zvxf ~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64.tar.gz -C ~/bioinformatics/software`
 
 3. Configuration: `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`
-   - 新建空文件夹 sratoolkit 用于保存用户信息
-   - 进入终端后，按C选择CACHE，location of user-repository 选择新建的空文件夹sratoolkit，process-local location选择安装包解压成的文件夹sratoolkit.3.0.0-ubuntu64
-   - 按A选择AWS，选择report cloud instance identity
-   - 按S保存设置，按X退出
+ 
+   - Create a new folder called "sratoolkit" to save user information 
+
+   - After entering the terminal，type "C" to choose CACHE. The location of user-repository choose the location of new folder "sratoolkit". The process-local location choose the location of sratoolkit.3.0.0-ubuntu64 folder. 
+  
+   - Type "A" to choose AWS. Choose "report cloud instance identity".
+   
+   - Type "S" to save. Type "X" to exit.
+  
 5. 执行 `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`   检查安装结果
 6. 设置环境变量：  
     ```
