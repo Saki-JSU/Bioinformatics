@@ -14,8 +14,9 @@
    
    - Type "S" to save. Type "X" to exit.
   
-5. 执行 `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`   检查安装结果
-6. 设置环境变量：  
+4. Test installation: `~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin/vdb-config --interactive`
+
+7. 设置环境变量：  
     ```
     echo 'export PATH=~/bioinformatics/software/sratoolkit.3.0.0-ubuntu64/bin:$PATH'  >> ~/.bashrc 
     soruce ~/.bashrc
