@@ -21,7 +21,9 @@ Seurat: scRNA-seq Analysis Tutorial
    - louvain cluster, graph based
    - resolution: control the number of clusters
 7. Annotation (Maker Gene)
+
 8.  Differential Expressed Genes (DEG) Analysis
    - Wilcox Rank Sum test (default)
+
 9. Gene Signature Analysis
    - Exhaustion score
