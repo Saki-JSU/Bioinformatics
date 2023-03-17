@@ -1,0 +1,4 @@
+# Bioinformatics environment in Linux
+
+1. Download miniconda: `wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh'
+2. Download
