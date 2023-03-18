@@ -9,5 +9,5 @@
 3. Check integrality of raw data: generate md5 file `md5sum *gz > md5.txt`, then compare the md5 value `md5sum -c md5.txt`
 4. Quality control: 
    - single sample: `fastqc` + sample name ending with `.fq.gz`
-   - 
+   - multiple samples: `fastqc *gz`
 
