@@ -10,4 +10,5 @@
 4. Quality control: 
    - single sample: `fastqc` + sample name ending with `.fq.gz`
    - multiple samples: `fastqc *gz`
+   - multiple samples in parallel: `ls *gz |xargs -I [] echo 'nohup fastqc [] &' > fastqc.sh` and `bash fastqc.sh`
 
