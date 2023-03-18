@@ -6,3 +6,4 @@
    - raw_data: 
    - clean_data
    - align_out
+3. Unzip `.gz` file: `gunzip *gz` 
