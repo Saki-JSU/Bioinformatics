@@ -24,4 +24,13 @@ STAR --runThreadN 6 --runMode genomeGenerate \
 --sjdbGTFfile ref/Brassica_napus.gtf \
 --sjdbOverhang 149
 ```
-
+8. Alignment: 
+```
+STAR --runThreadN 5 --genomeDir STAR_genome \
+--readFilesCommand zcat \ 
+--readFilesIn raw_data/OT94_25D1_1.fq.gz raw_data/OT94_25D1_2.fq.gz \
+--outFileNamePrefix align_out/OT94_25D1_ \
+--outSAMtype BAM SortedByCoordinate \
+--outBAMsortingThreadN 5 \
+--quantMode GeneCounts
+```
