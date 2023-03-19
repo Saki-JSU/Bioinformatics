@@ -1,4 +1,4 @@
-# Preprocess
+# Upstream Analysis
 
 1. Category of Working Folder "rnaseq": `tree rnaseq`
    - ref: download from https://ensemblgenomes.org/, including DNA reference genome file (end with `.toplevel.fa.gz`) and annotation file (end with `.gff.gz` or `gtf.gz`)
@@ -15,4 +15,11 @@
 5. QC report:
    - very important: Basic Statistics, Per Base Sequence Quality, Sequence QC content
    - important: Overrepresented Sequence, Adaptor Content (use Trimmomatic)
+6. Transfer .gff format into .gtf format: `gffread Brassica_napus.AST_PRJEB5043_v1.56.gff3 -T -o Brassica_napus.gtf`
+7. Build genome index: ```STAR --runThreadN 6 --runMode genomeGenerate \
+--genomeDir STAR_genome \ 
+--genomeFastaFiles ref/Brassica_napus.AST_PRJEB5043_v1.dna.toplevel.fa \
+--sjdbGTFfile ref/Brassica_napus.gtf \
+--sjdbOverhang 149
+```
 
