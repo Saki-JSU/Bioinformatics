@@ -16,7 +16,7 @@
    - very important: Basic Statistics, Per Base Sequence Quality, Sequence QC content
    - important: Overrepresented Sequence, Adaptor Content (use Trimmomatic)
 6. Transfer .gff format into .gtf format: `gffread Brassica_napus.AST_PRJEB5043_v1.56.gff3 -T -o Brassica_napus.gtf`
-7. Build genome index: 
+7. Build genome index: use STAR
 ```
 STAR --runThreadN 6 --runMode genomeGenerate \
 --genomeDir STAR_genome \ 
@@ -34,3 +34,11 @@ STAR --runThreadN 5 --genomeDir STAR_genome \
 --outBAMsortingThreadN 5 \
 --quantMode GeneCounts
 ```
+9. Counts: use featureCounts (conda install subread)
+```
+featureCounts -T 15 -p -a ref/Brassica_napus.gtf -o counts.txt align_out/OT94_25D1_Aligned.sortedByCoord.out.bam 1>counts.log 2>&1
+```
+10. Clean: `cut -f1,7,8,9,10,11,12 counts.txt > counts_matrix.txt
+` 
+
+
