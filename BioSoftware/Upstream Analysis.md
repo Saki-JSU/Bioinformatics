@@ -1,6 +1,7 @@
 # Upstream Analysis
 
-## Category of Working Folder "rnaseq": `tree rnaseq`
+## Category of Working Folder "rnaseq"
+Use: `tree rnaseq`
    - ref: download from https://ensemblgenomes.org/, including DNA reference genome file (end with `.toplevel.fa.gz`) and annotation file (end with `.gff.gz` or `gtf.gz`)
    - raw_data: paired sequencing has two files, ending with `_1.fa.gz` and `_2.fa.gz`
    - align_out
