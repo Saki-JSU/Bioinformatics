@@ -26,7 +26,7 @@ STAR --runThreadN 13 --runMode genomeGenerate \
 8. Alignment: 
 ```
 STAR --runThreadN 5 --genomeDir STAR_genome \
---readFilesCommand zcat \ 
+--readFilesCommand zcat \
 --readFilesIn raw_data/OT94_25D1_1.fq.gz raw_data/OT94_25D1_2.fq.gz \
 --outFileNamePrefix align_out/OT94_25D1_ \
 --outSAMtype BAM SortedByCoordinate \
