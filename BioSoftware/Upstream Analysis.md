@@ -44,6 +44,6 @@ STAR --runThreadN 5 --genomeDir STAR_genome \
 ```
 featureCounts -T 15 -p -a ref/Brassica_napus.gtf -o counts.txt align_out/OT94_25D1_Aligned.sortedByCoord.out.bam 1>counts.log 2>&1
 ```
-3. Clean: `cut -f1,7,8,9,10,11,12 counts.txt > counts_matrix.txt` 
+3. Clean: `cut -f1,7,8,9,10,11,12 counts.txt > count_out/counts_matrix_OT94_25D1.txt` 
 
 
